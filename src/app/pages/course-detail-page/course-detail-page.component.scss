@@ -16,7 +16,7 @@
           height: 100%;
           opacity: 0.8;
           object-fit: cover;
-          @include media("<=phone"){
+          @include media("<=phone") {
             width: 116%;
             margin-left: -16px;
           }
@@ -75,44 +75,24 @@
           justify-content: space-between;
         }
 
-<<<<<<< HEAD
-        .mobile-filter-panel {
-          display: flex;
-          flex-direction: column;
-
-          .mobile-btn-group {
-            height: 7vh;
-            width: fit-content;
-          }
-
-          .mobile-filter {
-            width: fit-content;
-            margin-top: 3vh;
-          }
-
-          .closeBtn {
-=======
         .drawer {
-      
           .mobile-filter-panel {
             display: flex;
             flex-direction: column;
-  
+
             .mobile-btn-group {
               height: 7vh;
               width: fit-content;
             }
-  
-            .mobile-filter{
+
+            .mobile-filter {
               width: fit-content;
               margin-top: 3vh;
-  
             }
-    
-            .closeBtn{
+
+            .closeBtn {
               width: 100%;
             }
->>>>>>> upstream/master
           }
         }
       }
